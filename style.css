@@ -1,0 +1,84 @@
+/* TODO: design your profile with CSS */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
+
+
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+h1 {
+  color: #30475e;
+}
+
+h2 {
+  color: #222831;
+}
+
+a {
+  text-decoration: none;
+  color: #c1a57b;
+}
+
+a:hover {
+  color: #58b4ae;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+.white-card {
+  background: white;
+  padding: 24px;
+  margin: 70px;
+  box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+  width: 500px;
+  margin: 20 auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: rgb(220,220,220);
+  margin: 0px 20px;
+}
+
+.social-icon:hover {
+  color: rgb(190,190,190);
+}
+
+.btn-blue {
+  padding: 8px 20px;
+  background-color: blue;
+  color:white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.btn-blue:hover {
+  background-color: black;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
