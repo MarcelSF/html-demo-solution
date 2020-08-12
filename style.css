@@ -35,10 +35,9 @@ a:hover {
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-
 }
 
-.white-card {
+.card-white {
   background: white;
   padding: 24px;
   margin: 70px;
@@ -47,6 +46,10 @@ a:hover {
   margin: 20 auto;
   text-align: center;
   border-radius: 4px;
+}
+
+.name-header {
+  color: red;
 }
 
 .list-inline {
